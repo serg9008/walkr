@@ -1,1 +1,6 @@
-This is a project for flickr pictures. and stuff
+This is a project for exploring online photo libraries. 
+
+It is currently in the develpoment stage.
+
+walkr_backend is the loc working product, in Django.
+
