@@ -1,0 +1,12 @@
+Superusers (last updated Mar 24th, 2011)
+-------------------------
+username: admin
+password: admin
+email: dtdannen@indiana.edu
+--------------------------
+
+
+Notes:
+
+-might need to change some absolute paths in the settings.py file for
+ things to work, like for the templates directory.

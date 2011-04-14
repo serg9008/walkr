@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account
+END
+registration-email.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/registration-email.html
+END
+profile.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/profile.html
+END
+signedin.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/signedin.html
+END
+signedout.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/signedout.html
+END
+register.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/register.html
+END
+signin.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/signin.html
+END
+success.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/walkr/!svn/ver/24/web/walkr/walkr/templates/account/success.html
+END

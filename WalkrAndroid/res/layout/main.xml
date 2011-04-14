@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:id="@+id/BGImage" android:scaleType="centerCrop"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:src="@drawable/bg" />
+	<LinearLayout android:id="@+id/layout_wrapper"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:gravity="center" android:layout_height="fill_parent">
+		<ViewAnimator android:id="@+id/flipper"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:paddingBottom="40dip">
+			<ListView android:id="@+id/list01" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:cacheColorHint="#00000000"
+				android:fadingEdge="vertical" android:fadingEdgeLength="50dip" />
+		</ViewAnimator>
+
+	</LinearLayout>
+	<LinearLayout android:id="@+id/search_wrapper"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true" android:gravity="center"
+		android:layout_height="wrap_content">
+		<EditText android:id="@+id/scoreinput" android:layout_width="fill_parent" android:layout_margin="5dip"
+			android:layout_weight="1" android:fadingEdgeLength="25dip" android:fadingEdge="vertical"
+			android:layout_height="wrap_content" />
+		<ImageButton android:id="@+id/searchButton" android:layout_width="50dip"
+			android:layout_height="50dip" />
+
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/walkr/!svn/ver/53/walkr_backend/apache
+END
+django.wsgi
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/walkr/!svn/ver/53/walkr_backend/apache/django.wsgi
+END

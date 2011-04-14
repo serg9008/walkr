@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/walkr/!svn/ver/20/web/walkr/walkr/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/walkr/!svn/ver/20/web/walkr/walkr/tests/__init__.py
+END
+test_models.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/walkr/!svn/ver/20/web/walkr/walkr/tests/test_models.py
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/walkr/!svn/ver/29/web/walkr/walkr/model
+END
+user.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/walkr/!svn/ver/21/web/walkr/walkr/model/user.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/walkr/!svn/ver/29/web/walkr/walkr/model/__init__.py
+END
+meta.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/walkr/!svn/ver/20/web/walkr/walkr/model/meta.py
+END

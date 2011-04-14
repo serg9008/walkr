@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/walkr/!svn/ver/21/web/walkr/walkr/lib
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/walkr/!svn/ver/20/web/walkr/walkr/lib/base.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/walkr/!svn/ver/20/web/walkr/walkr/lib/__init__.py
+END
+auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/walkr/!svn/ver/21/web/walkr/walkr/lib/auth.py
+END
+helpers.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/walkr/!svn/ver/21/web/walkr/walkr/lib/helpers.py
+END
+app_globals.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/walkr/!svn/ver/20/web/walkr/walkr/lib/app_globals.py
+END

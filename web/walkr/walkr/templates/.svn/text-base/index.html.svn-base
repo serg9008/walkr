@@ -1,0 +1,5 @@
+<%inherit file="base.html" />
+
+<%def name="title()">${parent.title()} - Home</%def>
+<p>Welcome to Walkr!</p>
+

@@ -1,0 +1,4 @@
+<h1>Welcome to InPhO!</h1>
+
+Thank you, ${c.user.fullname}, for registering with the Indiana Philosophy
+Ontology Project! 

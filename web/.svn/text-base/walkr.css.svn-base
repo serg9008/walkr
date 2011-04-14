@@ -1,0 +1,65 @@
+#sidebar .side-container {
+overflow: auto;
+border-bottom: 1px solid #AAA;
+}
+#photoContainer td {
+	margin: 5px;
+	height: 75px;
+	width: 75px;
+}
+.content-container {
+	padding: 2em;	
+}
+.w-text {
+font-weight: bold;
+color: #1C94C4;
+}
+
+.image-delete {
+background: url('images/delete.png') no-repeat center center;
+
+}
+.image-over {
+opacity:.6 !important;
+}
+.drag-bg {
+	background: white url('images/drag.png') no-repeat center center;
+}
+.image-not-over{
+opacity:1 !important;
+}
+.image-drag-active {
+position:absolute;
+z-index:50;
+}
+.imageflow
+{
+position:fixed;
+bottom:0px;
+width: 80%;
+}
+.imageflow .navigation {
+	opacity: 0.7;
+    background-color:#000000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */ 
+}
+
+#sidebar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+}
+body {
+	font-size: 13px;
+	line-height: 1.6em;
+	font-family: Arial,sans-serif;
+}
+.bottom-border
+{
+	border-bottom: 1px solid #AAA;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,8 @@
+Pylons>=1.0
+mysql-python>=1.2
+GeoAlchemy>=0.4.1
+SQLAlchemy>=0.6.0,<=0.6.99
+Mako>=0.2.2,<=0.2.99
+FormBuild>=3.0,<3.99
+repoze.who>=1.0,<=1.0.99
+turbomail>=3.0.0,<=3.0.99

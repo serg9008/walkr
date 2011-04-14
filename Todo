@@ -1,0 +1,78 @@
+Walkr: Code Todo and Schedule/Progress sheet
+
+Total time until product launch: 4-6 Months
+
+Stage 1. Front End 
+	From: February 14th
+	To: March 14th
+	Total Time: 4 Weeks
+
+	Description
+        a) Web (In Progress)
+                Implement a basic, clean front-end web interface.
+                Basic web navigation, map selection.
+                
+                Indiana University prototype
+		Route selecting, viewing, and sponsoring.
+                
+	b) Phone (In Progress)
+		Provide simple interface for phone
+                Create a splash screen with graphics
+                Indiana University prototype
+                
+                
+		
+Stage 2. Working Prototype (Incomplete)
+	From: March 13th
+	To: March 30th
+	Total Time: 2 Weeks
+	
+	Description
+	a) Data structures
+		Photo, stop, tour interface (users optional) 
+		with server in mind
+	b) Stop creation
+		Ability to create stops with photos, descriptions.
+	c) Route calculation
+		Implement route algorithm based on drawn line, start/end,
+		and stops.
+	d) Route creation
+		Create routes and rate them. (may require users)
+	
+Stage 3. Server (Incomplete)
+	From: March 30th
+	To: April 14th
+	Total Time: 2 Weeks
+	
+	Description
+	a) Server API 
+		Describe and implement basic server-client interface
+		that supports post
+	b) Interface existing code
+		Allow existing data structures to interface with server
+		
+Stage 4. Flickr and user-generated routes (Incomplete)
+  	 a) Image selection
+		Create algorithm for 'smart' image selection
+	 b) Image importing
+		Allow for import of photos from Flickr to server for use
+		in all routes
+
+Stage 5. Back to Front End (Incomplete)
+	From: ?
+	To: ?
+	
+	Description
+		Divide into front-end and back-end teams
+		Increase efficiency, usability
+		Create native phone app
+		
+Stage 6. Features (Incomplete)
+	Total Time: ?
+		Find nearby locations
+		Users sign-up to build user base.
+		Sign in to flickr for custom tours/routes
+		Support for ratings
+		Comment system
+		Flagging/Ticketing Photos
+		Logging in can access saved routes/tours

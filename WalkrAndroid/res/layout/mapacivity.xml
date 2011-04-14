@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="@+id/BGImage" android:scaleType="centerCrop"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:clickable="true"
+		android:apiKey="0_tWjtlAY6QEulnx-vUV7qCdD4YqEQG-Z_nB1OA" />
+
+	<LinearLayout android:id="@+id/zoomview"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignBottom="@id/mapview"
+		android:layout_centerHorizontal="true" />
+</RelativeLayout>
+

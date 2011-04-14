@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/walkr/!svn/ver/29/web/walkr/walkr/controllers
+END
+error.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/walkr/!svn/ver/20/web/walkr/walkr/controllers/error.py
+END
+account.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/walkr/!svn/ver/21/web/walkr/walkr/controllers/account.py
+END
+page.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/walkr/!svn/ver/29/web/walkr/walkr/controllers/page.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/walkr/!svn/ver/20/web/walkr/walkr/controllers/__init__.py
+END

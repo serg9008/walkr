@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block head_imports %}
+<script type="text/javascript" src="{{ STATIC_URL }}js/map.js"></script>
+{% endblock %}
+{% block content %}
+  <div style="height: 100%; margin-right:300px; position: relative;">
+	  <div id="map_canvas" style="width:100%; height:100%"></div>
+	  <div id="imageSlider" class="imageflow"> </div>
+  </div>
+  <div id="sidebar" >
+	<div style="height: 10%; background: #eee;" class="side-container" align="center">
+		<button id="loginButton"> Login </button>
+		<button id="registerButton"> Register </button>
+	</div>
+	<div align="center" class="side-container" style="height: 25%;">
+		<form id="search-form" action="">
+			<br>
+			<span>Search:</span>
+			<input type="text" maxlength="60" name="search" id="search-field" size="22" value=""/>
+			<br>
+			<span>Type:</span>
+			<select name="search-type">
+				<option>Map</option>
+				<option>Walkr Tours</option>
+			</select>
+			<br><br>
+					<button id="searchButton"> Take Me There </button>
+		</form>
+
+	</div>
+	<div id="tabs" style="height: 63.5%; overflow:auto;">
+	<ul>
+		<li><a href="#stops_tab">Create Stops</a></li>
+		<li><a href="#routes_tab">Create Routes</a></li>
+	</ul>
+	<div id="stops_tab"  style="background: white; padding: 0 0;">
+		<div id="photoContainer" class="side-container" align="center">
+			<!--<h3>Drag Photos to Create Stop</h3>-->
+			<span>Name:</span><br>
+			<input type="text" maxlength="60" name="name" id="stopName" size="22" value=""/>
+
+
+			<table cellspacing="10px">
+			  <tbody id="photoTable">
+			<tr> <td id="cphoto1" align="center" class="drag-bg"></td><td id="cphoto2" align="center" class="drag-bg"></td></tr>
+			</tbody>
+			</table>
+			<span>Description:</span><br>
+			<TEXTAREA NAME="desc" id="descStop" COLS=30 ROWS=4></TEXTAREA>
+		</div>
+		<div style="background: #eee;" align="center">
+			<div id="deletePointButton"> </div>
+			<div id="buttons" align="center">
+				<button id="saveButton"> Save </button>
+				<button id="cancelButton"> Cancel </button>
+			</div>
+		</div>
+	</div>
+	<div id="routes_tab">
+	Routes
+	</div>
+	</div>
+  </div>
+{% endblock %}

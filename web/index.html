@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+</style>
+<script src="jquery/js/jquery-1.4.4.min.js"> </script>
+<script src="jquery/js/jquery-ui-1.8.10.custom.min.js"> </script>
+<link rel="stylesheet" href="jquery/css/ui-lightness/jquery-ui-1.8.10.custom.css" type="text/css" />
+<link rel="stylesheet" href="walkr.css" type="text/css" />
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div id="header" style="padding: 1.5em 1.5em; height: 150px;">
+	<img src="images/wLogo.png" style="height: 100%; width: 400px; float: left;">
+	<div style="position: relative; float: left; height: 100%; width: 50%;">
+		<h1 style="position: absolute; bottom: 0px;">Browse, Create, and Share Virtual Tours</h1>
+	</div>
+</div>
+<div class="content-container">
+	<form id="searchMaps" action="">
+				<br>
+				<span class="w-text" >Search Routes:</span>
+				<input type="text" maxlength="60" name="search_routes" id="search-routes" size="22" value=""/>
+				<button id="serachRoutesButton"> Search </button>
+	</form>
+	<div id="main_tabs" style="width: 80%;">
+		<ul>
+			<li><a href="#spons_tab">Sponsored Maps</a></li>
+			<li><a href="#usergen_tab">User Generated Routes</a></li>
+			<li><a href="#favs_tab">Favorites</a></li>
+		</ul>
+		<div id="spons_tab">
+			Sponsored Maps
+		</div>
+		<div id="usergen_tab">
+		<ul>
+			<li>Map1</li>
+			<li>Map2</li>
+		</ul>
+		</div>
+		<div id="favs_tab">
+		Routes
+		</div>
+	</div>
+</div>
+<!-- <div id="content" style="padding: 1.5em 1.5em;">
+	<a href="#" ><img src="images/drag.png" style="height: 200px; width: 200px; float: left;"></a>
+	<a href="#" ><img src="images/drag.png" style="height: 200px; width: 200px; float: left;"></a>
+	<a href="#" ><img src="images/drag.png" style="height: 200px; width: 200px; float: left;"></a>
+	<a href="#" ><img src="images/drag.png" style="height: 200px; width: 200px; float: left;"></a>
+</div> -->
+<div id="sidebar" >
+
+	<div style="height: 10%; background: #eee;" class="side-container" align="center">
+		<br>
+		<button id="loginButton"> Login </button>
+		<button id="registerButton"> Register </button>
+	</div>
+	<div align="center" class="side-container" style="height: 25%;">
+		<form id="search-form" action="">
+			<br>
+			<span>Search:</span>
+			<input type="text" maxlength="60" name="search" id="search-field" size="22" value=""/>
+			<br>
+			<span>Type:</span>
+			<select name="search-type">
+				<option>Map</option>
+				<option>Walkr Tours</option>
+			</select>
+			<br><br>
+					<button id="searchButton"> Take Me There </button>
+		</form>
+
+	</div>
+	<div id="tabs" style="height: 65%;">
+	<ul>
+		<li><a href="#stops_tab">Create Stops</a></li>
+		<li><a href="#routes_tab">Create Routes</a></li>
+	</ul>
+	<div id="stops_tab"  style="height: 100%; background: white; padding: 0 0;">
+		<div id="photoContainer" class="side-container" align="center" style="height: 75%;">
+			<h3>Drag Photos to Create Stop</h3>
+			<table cellspacing="10px">
+			<tr> <td id="cphoto1" align="center" class="drag-bg"></td><td id="cphoto2" align="center" class="drag-bg"></td></tr>
+			<tr> <td id="cphoto3" align="center" class="drag-bg"></td><td id="cphoto4" align="center" class="drag-bg"></td></tr>
+			<tr> <td id="cphoto5" align="center" class="drag-bg"></td><td id="cphoto6" align="center" class="drag-bg"></td></tr>
+			</table>
+		</div>
+		<div class="side-container" style="height: 25%; background: #eee;" align="center">
+			<div id="deletePointButton"> </div>
+			<div id="buttons" align="center">
+				<button id="saveButton"> Save </button>
+				<button id="cancelButton"> Cancel </button>
+			</div>
+		</div>
+	</div>
+	<div id="routes_tab">
+	Routes
+	</div>
+	</div>
+  </div>
+</body>
+</html>

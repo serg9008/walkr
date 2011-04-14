@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/walkr/!svn/ver/32/web/wlk
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/walkr/!svn/ver/30/web/wlk/manage.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/walkr/!svn/ver/30/web/wlk/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/walkr/!svn/ver/32/web/wlk/settings.py
+END
+geodjango-googlemaps.zip
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/walkr/!svn/ver/30/web/wlk/geodjango-googlemaps.zip
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/walkr/!svn/ver/32/web/wlk/urls.py
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/walkr/!svn/ver/29/web/walkr/walkr/config
+END
+middleware.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/walkr/!svn/ver/21/web/walkr/walkr/config/middleware.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/walkr/!svn/ver/20/web/walkr/walkr/config/__init__.py
+END
+deployment.ini_tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/walkr/!svn/ver/20/web/walkr/walkr/config/deployment.ini_tmpl
+END
+environment.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/walkr/!svn/ver/21/web/walkr/walkr/config/environment.py
+END
+routing.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/walkr/!svn/ver/29/web/walkr/walkr/config/routing.py
+END

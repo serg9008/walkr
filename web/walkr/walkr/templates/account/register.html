@@ -1,0 +1,51 @@
+<%inherit file="/base.html"/>
+<%def name="title()">${parent.title()} - Register</%def>
+<%def name="head_title()">Register</%def>
+<%
+form = h.Form()
+%>
+
+<div id="content">
+<h1>Register</h1>
+${form.start_with_layout(h.url(controller='account', action='submit'), method="post") | n}
+    ${form.field(
+        label="Full Name", 
+        name='fullname',
+        type='text',
+        required=False
+    ) | n}
+    ${form.field(
+        label="Username", 
+        name='username',
+        type='text',
+        required=True
+    ) | n}
+    ${form.field(
+        label="Password",
+        name='password',
+        type='password',
+        required=True
+    ) | n}
+    ${form.field(
+        label="Confirm Password",
+        name='confirm_password',
+        type='password',
+        required=True
+    ) | n}
+    ${form.field(
+        label="E-mail", 
+        name='email',
+        type='text',
+        required=True
+    ) |n}
+    ${form.field(
+        label="Confirm E-mail", 
+        name='confirm_email',
+        type='text',
+        required=True
+    ) |n}
+    ${form.action_bar(
+        form.submit(value="Register", name='submit')
+    ) | n}
+${form.end_with_layout() | n}
+</div>

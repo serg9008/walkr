@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/walkr/!svn/ver/17/WalkrAndroid
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/walkr/!svn/ver/17/WalkrAndroid/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/walkr/!svn/ver/13/WalkrAndroid/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/walkr/!svn/ver/13/WalkrAndroid/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/walkr/!svn/ver/13/WalkrAndroid/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/walkr/!svn/ver/17/WalkrAndroid/AndroidManifest.xml
+END

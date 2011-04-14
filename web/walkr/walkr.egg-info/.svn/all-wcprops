@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/walkr/!svn/ver/33/web/walkr/walkr.egg-info
+END
+SOURCES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/walkr/!svn/ver/27/web/walkr/walkr.egg-info/SOURCES.txt
+END
+top_level.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/walkr/!svn/ver/20/web/walkr/walkr.egg-info/top_level.txt
+END
+PKG-INFO
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/walkr/!svn/ver/33/web/walkr/walkr.egg-info/PKG-INFO
+END
+entry_points.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/walkr/!svn/ver/20/web/walkr/walkr.egg-info/entry_points.txt
+END
+dependency_links.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/walkr/!svn/ver/20/web/walkr/walkr.egg-info/dependency_links.txt
+END
+not-zip-safe
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/walkr/!svn/ver/20/web/walkr/walkr.egg-info/not-zip-safe
+END
+paster_plugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/walkr/!svn/ver/20/web/walkr/walkr.egg-info/paster_plugins.txt
+END
+requires.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/walkr/!svn/ver/27/web/walkr/walkr.egg-info/requires.txt
+END

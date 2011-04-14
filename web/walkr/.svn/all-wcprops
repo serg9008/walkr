@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/walkr/!svn/ver/33/web/walkr
+END
+development.ini
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/walkr/!svn/ver/28/web/walkr/development.ini
+END
+ez_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/walkr/!svn/ver/20/web/walkr/ez_setup.py
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/walkr/!svn/ver/33/web/walkr/setup.py
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/walkr/!svn/ver/20/web/walkr/MANIFEST.in
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/walkr/!svn/ver/20/web/walkr/README.txt
+END
+who.ini
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/walkr/!svn/ver/28/web/walkr/who.ini
+END
+test.ini
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/walkr/!svn/ver/20/web/walkr/test.ini
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/walkr/!svn/ver/20/web/walkr/setup.cfg
+END

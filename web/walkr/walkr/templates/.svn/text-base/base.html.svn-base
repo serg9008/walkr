@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>${self.title()}</title>
+<!--[if lt IE 7]>
+${h.stylesheet_link('/css/style_ie6.css')}
+<![endif]-->
+${self.jquery()}
+${h.stylesheet_link('/css/style.css')}
+<script type="text/javascript">
+   $(function(){
+      $('#tabs').tabs();
+   
+      $('#dialog_link, ul#icons li').hover(
+        function() { $(this).addClass('ui-state-hover'); },
+        function() { $(this).removeClass('ui-state-hover'); }
+   );
+
+});
+</script>
+
+<style type="text/css">
+#dialog_link {
+padding: .4em 1em .4em 20px;
+text-decoration: none; 
+position: relative;
+}
+</style>
+${self.head()}
+</head>
+
+<body>
+<div id="framecontent"> 
+  <div class="innertube"> 
+    ${self.rightframe()}
+  </div> 
+</div> 
+
+
+<div id="wrapper">	<!--Wrapper begins-->
+  <div id="header">
+    ${self.header()}
+  </div>
+  <div id="content">
+    ${self.login()}
+    ${next.body()}
+
+    <div class="clear"></div>
+  </div>	<!--Content ends-->
+</div>  <!--Wrapper ends-->
+
+<div class="clear"></div>
+  <%include file="footer" />
+</body>
+</html>
+
+
+<%def name="title()">Walkr</%def>
+<%def name="head_title()">Walkr: Geotagged Photo Routes</%def>
+
+<%def name="header()">
+<h1><a href="${h.url('/page/index')}" id="nameplate">Walkr</a></h1>
+<h2><a href="${h.url('/page/index')}" id="info" title="Walkr">Geotagged Photo Routes</a></h2>
+<!--Main navigation ends-->
+</%def>
+
+<%def name="jquery()"> <!---Jquery begin--->
+${h.javascript_link('http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js')}
+${h.stylesheet_link('/css/ui-lightness/jquery-ui-1.8.10.custom.css')}
+${h.javascript_link('/js/jquery-ui-1.8.10.custom.min.js')}
+</%def>
+ <!---Jquery end--->
+
+<%def name="head()"></%def>
+<%def name="sidebar()"></%def>
+
+
+<%def name="login()">
+<div id="login">
+  ## check if user is logged in or signing out
+  % if h.auth.is_logged_in() and not (request.urlvars['controller'] == 'account' and request.urlvars['action']  == 'signout'):
+    ${h.auth.username(request)} :: <a href="${h.url(controller='account', action='signout')}">Sign Out</a>
+  %else:
+    <a href="${h.url('/account/register')}">Register</a> :: <a href="${h.url('/account/signin')}">Sign In</a>
+  %endif
+</div>
+</%def>
+
+<%def name="rightframe()">
+<h2>Rightframe</h2>
+<div id="tabs">	<!--Main navigation begins-->
+  <ul>
+    <li> <a href="#tabs-1">Explore</a></li>
+    <li> <a href="#tabs-2">Create</a></li>
+    </ul>
+     <div id="tabs-1">there are stuffs here</div>
+     <div id="tabs-2">Blah blah</div>
+
+</div>	
+</%def>
