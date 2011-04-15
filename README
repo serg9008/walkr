@@ -2,5 +2,9 @@ This is a project for exploring online photo libraries.
 
 It is currently in the develpoment stage.
 
-walkr_backend is the loc working product, in Django.
+walkr_backend is the loc of the working specimen, using Django.
+
+To run the dev server, cd into walkr_backend/ and type:
+
+python manage.py runserver
 
