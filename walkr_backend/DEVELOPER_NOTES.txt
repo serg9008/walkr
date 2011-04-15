@@ -2,7 +2,7 @@ Superusers (last updated Mar 24th, 2011)
 -------------------------
 username: admin
 password: admin
-email: dtdannen@indiana.edu
+email: dtdannen@indiana.edu 
 --------------------------
 
 
